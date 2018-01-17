@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Rational
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Rational\ here.\r\n\r\n\ @author\ Bailee\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Rational()
+comment2.params=numerator
+comment2.target=void\ setNumerator(int)
+comment3.params=
+comment3.target=int\ getNumerator()
+comment4.params=denominator
+comment4.target=void\ setDenominator(int)
+comment5.params=
+comment5.target=int\ getDenominator()
+comment6.params=
+comment6.target=void\ main()
+comment6.text=public\ String\ toString()\ {\ //step\ 6\r\n\ \ \ \ \ \ \ \ return\ String.format();\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ public\ void\ negate(){\ //step\ 8\r\n\ \ \ \ \ \ \ \ setNumerator(numerator\ *\ -1);\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ public\ void\ invert(){\ //\ step\ 10\r\n\ \ \ \ \ \ \ \ numerator\ \=\ denominator;\r\n\ \ \ \ \ \ \ \ denominator\ \=\ numerator;\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ }\r\n\ \ \ \ public\ String\ printRational()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ printRational\ \=\ getNumerator()\ +\ "/"\ +\ getDenominator();\r\n\ \ \ \ \ \ \ \ return\ printRational;\r\n\ \ \ \ \ \ \ \ //displays\ a\ rational\ in\ some\ format\r\n}
+numComments=7
